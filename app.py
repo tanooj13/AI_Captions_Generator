@@ -144,7 +144,8 @@ def main():
 
         load_dotenv()  # Load environment variables
 
-        GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+        # GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+        GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
         if st.button("Summarize"):
             # Summarize the transcription result
             st.write("Summarizing...")
