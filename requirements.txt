@@ -5,3 +5,4 @@ srt
 groq
 python-dotenv
 requests
+openai-whisper
