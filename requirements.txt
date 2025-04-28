@@ -1,0 +1,7 @@
+streamlit
+whisper
+moviepy
+srt
+groq
+python-dotenv
+requests
