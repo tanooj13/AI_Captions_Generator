@@ -1,0 +1,27 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore environment variables file
+.env
+
+# Ignore audios, videos, captions folders (optional, if generated files)
+audios/
+videos/
+captions/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environment if created
+venv/
+.env/
+env/
+
+# Ignore Streamlit generated files
+.streamlit/
+
+# Ignore log files
+*.log
