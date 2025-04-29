@@ -7,3 +7,5 @@ python-dotenv
 requests
 openai-whisper
 ffmpeg
+git+https://github.com/openai/whisper.git
+python_version == "3.10"
