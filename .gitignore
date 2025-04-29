@@ -21,7 +21,7 @@ venv/
 env/
 
 # Ignore Streamlit generated files
-.streamlit/
+# .streamlit/
 
 # Ignore log files
 *.log
