@@ -122,7 +122,7 @@ def main():
             # st.success("Subtitles generated and saved to captions/output.srt")
 
             # Burn subtitles into the video
-            ffmpeg_path = "ffmpeg"
+            ffmpeg_path = "/usr/bin/ffmpeg"
             output_path = "videos/output_video.mp4"
             os.makedirs(os.path.dirname(output_path), exist_ok=True)
             st.write("Burning subtitles into the video...")
