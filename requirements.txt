@@ -1,7 +1,9 @@
 streamlit
 whisper
-moviepy
+moviepy==1.0.3
 srt
 groq
 python-dotenv
 requests
+openai-whisper
+ffmpeg
